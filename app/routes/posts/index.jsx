@@ -29,7 +29,7 @@ const PostItems = () => {
       <Link to="/posts/new" className="btn">
         New Post
       </Link>
-      <ul className="posts-lists">
+      <ul className="posts-list">
         {posts.map((item) => (
           <li key={item.id}>
             <Link to={item.id}>

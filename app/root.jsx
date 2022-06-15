@@ -62,9 +62,8 @@ const Layout = ({ children }) => {
             <Link to="/posts">Posts</Link>
           </li>
         </ul>
-
-        <div className="container">{children}</div>
       </nav>
+      <div className="container">{children}</div>
     </>
   );
 };
